@@ -35,10 +35,16 @@ Then visit http://localhost:5173 in your browser window.
 
 4. **Build for production**
 ```
-npm run dev
+npm run build
 ```
 5. **Deploy**
-Host the contents of the dist folder on any static file hosting (GitHub Pages, Netlify, Vercel).
+
+The project includes a GitHub Action workflow that automatically builds and deploys to a `gh-pages` branch whenever you push to `main`.
+
+To enable GitHub Pages:
+1. Go to your repository settings
+2. Select "Pages" from the sidebar
+3. Set "Deploy from a branch" and select "gh-pages" branch
 
 ## Contributing
 Please use the provided GitHub issue and pull request templates when reporting bugs or proposing features.
