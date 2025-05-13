@@ -115,7 +115,7 @@ window.addEventListener('resize', onWindowResize);
 /*
   ===== FLOOR & TEXTURE
 */
-loadTexture('/assets/cgaxis_raw_cracked_white_concrete_46_42_4K/raw_cracked_white_concrete_46_42_ao.jpg').then((texture) => {
+loadTexture('./assets/cgaxis_raw_cracked_white_concrete_46_42_4K/raw_cracked_white_concrete_46_42_ao.jpg').then((texture) => {
   texture.wrapS = THREE.RepeatWrapping;
   texture.wrapT = THREE.RepeatWrapping;
   texture.repeat.set(20, 20); // tile texture 4x4
