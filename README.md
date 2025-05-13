@@ -1,5 +1,7 @@
 # Immersive Scene Starter Kit 🎮
 
+[![Live Demo](https://img.shields.io/badge/demo–online-blue.svg)](https://celestelayne.github.io/threejs-immersive-scene-starter/)
+
 A minimal, developer-friendly boilerplate for building 3D web scenes with [Three.js](https://threejs.org/) and [Vite](https://vitejs.dev/). Perfect for designers, developers, and creative technologists building immersive web experiences.
 
 ## 🚀 Features
@@ -45,6 +47,11 @@ To enable GitHub Pages:
 1. Go to your repository settings
 2. Select "Pages" from the sidebar
 3. Set "Deploy from a branch" and select "gh-pages" branch
+
+## 🔗 Hosted Demo
+
+Check out the live scene here:  
+👉 https://celestelayne.github.io/threejs-immersive-scene-starter/
 
 ## Contributing
 Please use the provided GitHub issue and pull request templates when reporting bugs or proposing features.
