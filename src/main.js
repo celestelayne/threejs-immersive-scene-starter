@@ -8,6 +8,9 @@ import { loadTexture } from './utils/loadTexture';
 import { VRButton } from 'three/examples/jsm/webxr/VRButton.js';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 
+// Set global color management
+THREE.ColorManagement.enabled = true;
+
 /*
   ===== GLOBAL VARIABLES
 */
@@ -116,7 +119,7 @@ loadTexture('/assets/cgaxis_raw_cracked_white_concrete_46_42_4K/raw_cracked_whit
   texture.wrapS = THREE.RepeatWrapping;
   texture.wrapT = THREE.RepeatWrapping;
   texture.repeat.set(20, 20); // tile texture 4x4
-  texture.encoding = THREE.sRGBEncoding; // Proper color encoding
+  texture.colorSpace = THREE.SRGBColorSpace;
 
   const floor = new THREE.Mesh(
     new THREE.PlaneGeometry(20, 20),
